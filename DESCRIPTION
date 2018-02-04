@@ -1,0 +1,11 @@
+Package: ghissues
+Type: Package
+Title: manage your issues from within RStudio
+Version: 0.1.0
+authors@R: person("Roel M.", "Hogervorst", email = "hogervorst.rm@gmail.com",
+                  role = c("aut", "cre"))
+Description: A small addin you can call from within your RStudio session to find and add issues to 
+    your project. I assume: your current repo has git enabled, and you have github as a remote configured.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
