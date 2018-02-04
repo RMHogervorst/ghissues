@@ -9,3 +9,5 @@ Description: A small addin you can call from within your RStudio session to find
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+URL: https://github.com/RMHogervorst/ghissues
+BugReports: https://github.com/RMHogervorst/ghissues/issues
