@@ -17,4 +17,26 @@ So
 - perhaps paste the issue number and or link in git commit message?
 
 
+(the ropensci people created a wonderful ghql package that 
+actually makes the call and returns the object).
+
+
+### what does this package aims to do? (user stories to requirements)
+I want to be able to work closely with github. That means I open a rstudio project and work on that project.
+I pull from github and start to work. I want to know what I need to do. Therefore I check out the open issues on 
+github. I make a branch in my local git repo named after that issue, work in there, and when I'm finished with the feature
+I open a new pull request into the master branch with the number of the issue like '#21 fix whatever was the problem here'. 
+
+What I don't like is having something else open. 
+
+I want to see and filter all the issues in a rstudio addin. I just load the issues, possibly filter them, 
+possibly paste the issuenumber in my git commit message and have thee issues available in my rstudio session.
+
+minmal requirements:
+- load first (last made) issues from github for the repo I'm in.
+
+Things I will not implement yet:
+- comments on an issue
+- more labels
+- filtering on labels
 

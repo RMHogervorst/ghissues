@@ -12,3 +12,7 @@ LazyData: true
 URL: https://github.com/RMHogervorst/ghissues
 BugReports: https://github.com/RMHogervorst/ghissues/issues
 RoxygenNote: 6.0.1
+Suggests: 
+    testthat
+Imports: 
+    git2r
